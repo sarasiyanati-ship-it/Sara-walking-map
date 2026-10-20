@@ -119,8 +119,6 @@ Buildings: 3D building models LoD2 © GDI-Th (dl-de/by-2-0). Land use and pedest
 ## How this was made
 
 1. Tools: Claude Code, with the model Claude Opus 5.5.
-2. I decided: the research question, and what counts as a park. I went with recreation plots of at least 0.5 ha, left out the area that looks like a sports ground, and kept neutral labels instead of guessing names. I also decided to show Park A's pressure with a clear warning instead of hiding it, to call the 25 m band an approximation, and to tag every number as either from the data or a modelled estimate.
+2. I decided: I decided to explore park accessibility and potential population pressure in central Weimar using an interactive 3D map.
 3. The agent did: inspected the data, built the park rule, routing, catchment and population analysis and the 3D map, and tested them, based on my research question and choices.
-4. I checked: I ran the start page locally before building anything. I read the agent's report on what the data can and can't support, and chose the park rules from it. I went through the plan and asked for two changes before it was built (the Park A warning and the wording around the 25 m band). The tests listed under "What I tested" were run by Claude Code, not by me by hand.
-I decided: I decided to explore park accessibility and potential population pressure in central Weimar using an interactive 3D map.
-I checked: I checked the map layers and park estimates, keeping in mind that the population pressure index does not represent actual visitor numbers or crowding.
+4. I checked: I checked the map layers and park estimates, keeping in mind that the population pressure index does not represent actual visitor numbers or crowding.
